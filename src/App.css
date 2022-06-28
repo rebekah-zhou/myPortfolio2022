@@ -1,3 +1,16 @@
+#app {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cloud-button {
+  background-color: whitesmoke;
+}
+
 .App {
   text-align: center;
 }
