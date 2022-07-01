@@ -1,5 +1,5 @@
 #app {
-  background-color: aquamarine;
+  background-color: rgba(135, 206, 250, 0.5);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,32 +7,35 @@
   align-items: center;
 }
 
-.space-between {
-  display: flex;
-  justify-content: space-between;
-}
-
-
 /* top bar */
 
 #top-bar {
   display: flex;
+  margin: 20px;
   flex-direction: row;
   justify-content: space-around;
   width: 100vw;
 }
 
-#sun {
+#sun { 
+  display:inline-block;
   text-align: center;
-  margin-top: 10px;
-  background: yellow;
-  width: 80px;
-  height: 80px;
-  border-radius: 80px;
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  background:orange;
+  box-shadow: 0 0 10px orange,
+              0 0 60px orange,
+              0 0 200px yellow,
+              inset 0 0 80px yellow;
+  z-index:12;
 }
 
-#sun-span {
-  margin-top: 30px;
+#sun-span-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .cloud-p {
@@ -43,7 +46,7 @@
 }
 
 .cloud-button {
-  margin: 50px 10px 10px 10px;
+  margin: 30px 10px 10px 10px;
   width:150px;
   height:60px;
   background:#ECEFF1;

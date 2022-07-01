@@ -3,7 +3,7 @@ import React from 'react'
 function Sun() {
   return (
     <div id='sun'>
-        <span id='sun-span'>Sun</span>
+        <div id='sun-span-div'><span id='sun-span'>Home</span></div>
     </div>
   )
 }

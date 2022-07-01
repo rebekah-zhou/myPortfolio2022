@@ -11,7 +11,7 @@ function TopBar() {
   return (
     <div id='top-bar'>
       <Sun />
-      <div className='space-between'>{clouds}</div>
+      <div>{clouds}</div>
     </div>
   )
 }
