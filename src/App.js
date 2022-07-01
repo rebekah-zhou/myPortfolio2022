@@ -1,5 +1,5 @@
 import './App.css';
-import TopBar from './Components/TopBar';
+import TopBar from './Components/TopBar/TopBar';
 import MainDisplay from './Components/MainDisplay';
 import BottomBar from './Components/BottomBar';
 
