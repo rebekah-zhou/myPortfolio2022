@@ -1,8 +1,9 @@
 import React from 'react'
+import './BottomBar.css'
 
 function BottomBar() {
   return (
-    <div>BottomBar</div>
+    <div id='bottom-bar'></div>
   )
 }
 

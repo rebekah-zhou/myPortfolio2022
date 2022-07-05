@@ -1,0 +1,79 @@
+#top-bar {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    font-family: Lobster;
+    font-size: larger;
+  }
+  
+  #sun { 
+    display:inline-block;
+    text-align: center;
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    background:orange;
+    box-shadow: 0 0 10px orange,
+                0 0 60px orange,
+                0 0 200px yellow,
+                inset 0 0 80px yellow;
+    z-index:12;
+    cursor: pointer;
+  }
+  
+  #sun-span-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: inherit;
+  }
+  
+  .cloud-p {
+    width: 100px;
+    margin: -20px 0px 0px 20px;
+    /* background-color: red; */
+    z-index: 10;
+    cursor: inherit;
+  }
+  
+  .cloud-button {
+    margin: 30px 10px 10px 10px;
+    width:150px;
+    height:60px;
+    background:#ECEFF1;
+    border-radius: 100px;
+    border: 1px #ECEFF1 solid ;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .cloud-button::after {
+    width: 50px;
+    height: 25px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -62px;
+    left: -25px;
+  }
+  
+  .cloud-button::before {
+    width: 70px;
+    height: 35px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    top: -30px;
+    left: 25px;
+  } 
+
+  .cloud-button:after, .cloud-button:before{
+    content:"";
+    position:relative;
+    /* border-radius:inherit; */
+    display:inline-block;
+    background:inherit;
+  }

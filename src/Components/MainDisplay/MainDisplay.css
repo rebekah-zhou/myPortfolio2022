@@ -1,0 +1,24 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.slider-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.slider-container {
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: mandatory;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.slider-child {
+  text-align: center;
+  scroll-snap-align: start;
+  width: 95vw;
+  height: 70vh;
+}
