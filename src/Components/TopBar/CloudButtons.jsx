@@ -1,8 +1,17 @@
 import React from 'react'
 
-function CloudButtons({ name }) {
+function CloudButtons({ onCloudClick, name }) {
+
+  function handleCloudClick(e) {
+    console.log(name)
+    onCloudClick(name)
+  }
+  
   return (
-    <button className="cloud-button">
+    <button 
+      onClick={handleCloudClick} 
+      className="cloud-button"
+      type='button'>
       <p className='cloud-p'>{name}</p>
     </button>
   )

@@ -1,3 +1,12 @@
+# Things to Work On
+
+
+# Extras
+Active cloud css
+scroll start/end
+horizontal scrolling
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
