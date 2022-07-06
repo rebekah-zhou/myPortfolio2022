@@ -10,6 +10,7 @@ function CloudButtons({ onCloudClick, name }) {
   return (
     <button 
       onClick={handleCloudClick} 
+      activeClass='active-cloud'
       className="cloud-button"
       type='button'>
       <p className='cloud-p'>{name}</p>

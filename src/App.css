@@ -2,10 +2,42 @@
   background-color: bisque;
   width: 100vw;
   height: 15vh;
+  /* background-image:
+    radial-gradient(brown 25%, transparent 25%),
+    radial-gradient(#A67C49 25%, transparent 25%),
+    radial-gradient(#d2691e 25%, transparent 25%),
+    radial-gradient(#f4a460 25%, transparent 25%),
+    radial-gradient(#F2D2BD 25%, transparent 25%),
+    radial-gradient(#EADDCA 25%, transparent 25%),
+    radial-gradient(#DAA06D 25%, transparent 25%),
+    radial-gradient(#F5DEB3 25%, transparent 25%),
+    radial-gradient(#f4a460 25%, transparent 25%),
+    radial-gradient(#F5DEB3 25%, transparent 25%);
+  background-position: 
+    0 0,  
+    10px 20px,
+    25px 7px,
+    35px 17px,
+    5px 17px,
+    0px 35px,
+    10px 35px,
+    25px 25px,
+    30px 40px,
+    15px 48px;  
+  background-size: 7px 8px; */
+}
+
+/* need to repeat */
+.pixelart {
+  width: 1px;
+  height: 1px;
+  transform: scale(3);
+  background: transparent;
+  box-shadow: 5px 1px #cd853f, 25px 1px #ffffff, 23px 3px #f4a460, 12px 5px white, 17px 5px #f4a460, 6px 7px #3c0606, 22px 9px #cd853f, 7px 12px #f4a460, 10px 13px #cd853f, 16px 13px #cd853f, 21px 13px #3c0606, 23px 16px #f4a460, 14px 18px #ffffff, 4px 21px #3c0606, 20px 22px #cd853f, 9px 23px #f4a460, 24px 23px #ffffff;
 }
 
 #app {
-  background-color: rgba(135, 206, 250, 0.5);
+  background: linear-gradient(rgba(135, 206, 250, 0.5), rgb(102, 188, 242));
   height: 100vh;
   display: flex;
   flex-direction: column;
