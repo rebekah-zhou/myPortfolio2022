@@ -1,8 +1,11 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 function Home() {
   return (
-    <div className='slider-child'>Home</div>
+    <Element name='Home'>
+      <div className='slider-child'>Home</div>
+    </Element>
   )
 }
 

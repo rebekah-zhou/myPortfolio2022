@@ -1,12 +1,12 @@
 import './App.css';
 import TopBar from './Components/TopBar/TopBar';
 import MainDisplay from './Components/MainDisplay/MainDisplay';
-import BottomBar from './Components/BottomBar/BottomBar';
+// import BottomBar from './Components/BottomBar/BottomBar';
 import { useState, useEffect } from 'react'
 
 function App() {
   const [pageToDisplay, setPageToDisplay] = useState("Home")
-
+  
   function handleScroll(e) {
     console.log(e)
   }

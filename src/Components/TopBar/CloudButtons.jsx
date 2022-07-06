@@ -6,7 +6,7 @@ function CloudButtons({ onCloudClick, name }) {
     console.log(name)
     onCloudClick(name)
   }
-  
+
   return (
     <button 
       onClick={handleCloudClick} 
