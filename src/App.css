@@ -1,12 +1,6 @@
 
-/* need to repeat */
-.pixelart {
-  width: 1px;
-  height: 1px;
-  transform: scale(3);
-  background: transparent;
-  box-shadow: 5px 1px #cd853f, 25px 1px #ffffff, 23px 3px #f4a460, 12px 5px white, 17px 5px #f4a460, 6px 7px #3c0606, 22px 9px #cd853f, 7px 12px #f4a460, 10px 13px #cd853f, 16px 13px #cd853f, 21px 13px #3c0606, 23px 16px #f4a460, 14px 18px #ffffff, 4px 21px #3c0606, 20px 22px #cd853f, 9px 23px #f4a460, 24px 23px #ffffff;
-}
+/* font-family: 'Lora', serif;
+font-family: 'Nunito', sans-serif; */
 
 #app {
   background: linear-gradient(rgba(135, 206, 250, 0.5), rgb(102, 188, 242));
