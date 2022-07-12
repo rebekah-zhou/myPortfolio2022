@@ -1,5 +1,9 @@
 #bottom-bar {
-    background-color: rgba(200, 98, 0, 0.7);
     width: 100vw;
-    height: 12%;
+    background-color: #FFE598;
+}
+
+.sand {
+    width: 100vw;
+    height: 16vh;
 }
