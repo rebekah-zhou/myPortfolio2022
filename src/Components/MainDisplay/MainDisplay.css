@@ -9,16 +9,28 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+#main-display {
+  font-family: 'Nunito', sans-serif;
+  font-size: calc(1.5vh + 12px);
+}
+
 .slider-container {
   scroll-snap-type: y mandatory;
   scroll-snap-type: mandatory;
   overflow-y: scroll;
-  height: 70vh;
+  height: 80vh;
+  width: 100vw;
+  background: url('./oceanWaves.svg'), url('./sand.svg');
+  background-size: 100vw 92vh, 100vw 20vh;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .slider-child {
+  font-family: inherit;
   text-align: center;
   scroll-snap-align: start;
-  width: 95vw;
-  height: 70vh;
+  width: 100vw;
+  height: 80vh;
+  /* background-color: rgba(165, 210, 255, 0.25); */
 }
