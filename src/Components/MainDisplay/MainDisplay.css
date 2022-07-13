@@ -9,11 +9,37 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+/* #main-display {
+  background: url('./oceanWaves.svg');
+  background-size: cover;
+} */
+
+/* .ocean-waves {
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  display: static;
+} */
+/* #sand {
+  background: url('./sand.svg');
+  background-size: cover;
+}
+
+#bottom-bar {
+  width: 100vw;
+  height: 15vh;
+} */
+
 .slider-container {
   scroll-snap-type: y mandatory;
   scroll-snap-type: mandatory;
   overflow-y: scroll;
   height: 70vh;
+  width: 100vw;
+  background: url('./oceanWaves.svg'), url('./sand.svg');
+  background-size: 100vw 82vh, 100vw 20vh;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .slider-child {
@@ -21,4 +47,5 @@
   scroll-snap-align: start;
   width: 95vw;
   height: 70vh;
+  background-color: rgba(0, 0, 0, 0.25);
 }
