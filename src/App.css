@@ -3,7 +3,7 @@
 font-family: 'Nunito', sans-serif; */
 
 #app {
-  background: linear-gradient(rgba(135, 206, 250, 0.5), rgb(102, 188, 242));
+  background: #e6bd4a;
   height: 100vh;
   display: flex;
   flex-direction: column;
