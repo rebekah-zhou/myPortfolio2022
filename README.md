@@ -1,3 +1,5 @@
+# Beach Skeleton Project
+
 # Things to Work On
 - Add content
 - Wave animation
