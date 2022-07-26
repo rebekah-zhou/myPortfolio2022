@@ -12,25 +12,27 @@
 #main-display {
   font-family: 'Nunito', sans-serif;
   font-size: calc(1.5vh + 12px);
+  background: url('./oceanWaves.svg'), url('./sand.svg');
+  background-size: 100vw 110vh, 100vw 15vh;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .slider-container {
   scroll-snap-type: y mandatory;
   scroll-snap-type: mandatory;
   overflow-y: scroll;
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
-  background: url('./oceanWaves.svg'), url('./sand.svg');
-  background-size: 100vw 92vh, 100vw 20vh;
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
 }
 
 .slider-child {
   font-family: inherit;
   text-align: center;
   scroll-snap-align: start;
+  height: 85vh;
   width: 100vw;
-  height: 80vh;
-  /* background-color: rgba(165, 210, 255, 0.25); */
+  padding: 10px;
 }
+
+

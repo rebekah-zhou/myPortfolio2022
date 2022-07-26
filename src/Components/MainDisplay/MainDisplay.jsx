@@ -17,13 +17,13 @@ function MainDisplay({ pageToDisplay }) {
   
 
   return (
-        <div id='main-display' className="slider-container">
-            <Home />
-            <About />
-            <Projects />
-            <Resume />
-        </div>
-    )
+    <div id='main-display' className="slider-container">
+        <Home />
+        <About />
+        <Projects />
+        <Resume />
+    </div>
+  )
 }
 
 export default MainDisplay
